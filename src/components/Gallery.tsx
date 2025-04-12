@@ -9,7 +9,7 @@ const galleryImages = [
     category: 'ambience'
   },
   {
-    src: 'https://images.unsplash.com/photo-1517248430989-426d6f19cbd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
+    src: 'https://cdn.prod.website-files.com/608c22a9a0bebf3476f71608/65f4a3a36dc2aecf0f9a30d4_Alla%20Vita%20Private%20Dining%20Page%20Large%20Resized_2-min.webp',
     alt: 'Intimate dining area',
     category: 'ambience'
   },
