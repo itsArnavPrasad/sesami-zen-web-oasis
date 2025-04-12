@@ -38,14 +38,24 @@ const Navbar = () => {
       )}
     >
       <div className="sesami-container flex justify-between items-center">
-        <a href="#hero" className="text-sesami-black font-serif text-xl md:text-2xl font-semibold">
+        <a href="#hero" className={cn(
+          "font-serif text-xl md:text-2xl font-semibold",
+          isScrolled ? "text-sesami-black" : "text-white"
+        )}>
           SESAMI
         </a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
           {navLinks.map((link) => (
-            <a key={link.name} href={link.href} className="sesami-nav-link">
+            <a 
+              key={link.name} 
+              href={link.href} 
+              className={cn(
+                "sesami-nav-link hover:opacity-75 transition-opacity",
+                isScrolled ? "text-sesami-black" : "text-white"
+              )}
+            >
               {link.name}
             </a>
           ))}
@@ -53,7 +63,10 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-sesami-black focus:outline-none" 
+          className={cn(
+            "md:hidden focus:outline-none",
+            isScrolled ? "text-sesami-black" : "text-white"
+          )}
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X size={24} /> : <Menu size={24} />}

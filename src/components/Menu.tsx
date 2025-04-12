@@ -16,7 +16,7 @@ const menuItems = {
       price: 350, 
       veg: true, 
       spicy: false,
-      image: 'https://images.unsplash.com/photo-1622040806062-07e726e38d8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+      image: 'https://www.recipetineats.com/tachyon/2024/07/Spicy-edamame-47614-1.jpg'
     },
     { 
       name: 'Miso Soup', 
@@ -24,7 +24,7 @@ const menuItems = {
       price: 300, 
       veg: true, 
       spicy: false,
-      image: 'https://images.unsplash.com/photo-1578059457703-850565b053f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+      image: 'https://www.crowdedkitchen.com/wp-content/uploads/2020/08/vegan-miso-soup.jpg'
     },
     { 
       name: 'Chicken Gyoza', 
@@ -32,7 +32,7 @@ const menuItems = {
       price: 450, 
       veg: false, 
       spicy: false,
-      image: 'https://images.unsplash.com/photo-1625938144898-69930661e75e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+      image: 'https://cardamommagazine.com/wp-content/uploads/2021/04/chicken-gyoza.jpg'
     },
     { 
       name: 'Prawn Tempura', 
@@ -40,7 +40,7 @@ const menuItems = {
       price: 550, 
       veg: false, 
       spicy: false,
-      image: 'https://images.unsplash.com/photo-1665114849280-8f21c19359af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80'
+      image: 'https://mogushop.asia/cdn/shop/articles/tempura-1_orig_750x.jpg?v=1589562939'
     },
   ],
   'Sushi': [

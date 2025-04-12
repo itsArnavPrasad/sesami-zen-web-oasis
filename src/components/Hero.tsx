@@ -18,19 +18,14 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative h-screen w-full overflow-hidden">
-      {/* Video Background */}
+      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-sesami-black/40 z-10"></div>
-        <video 
-          autoPlay 
-          muted 
-          loop 
-          playsInline
+        <img 
+          src="https://b.zmtcdn.com/data/pictures/chains/0/19590530/eb43f4b738d312789eb3454e8d514089.jpg"
+          alt="Sesami restaurant ambiance"
           className="w-full h-full object-cover"
-        >
-          <source src="https://b.zmtcdn.com/data/pictures/chains/0/19590530/eb43f4b738d312789eb3454e8d514089.jpg" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        />
       </div>
       
       {/* Content */}
