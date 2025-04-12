@@ -28,7 +28,7 @@ const Hero = () => {
           playsInline
           className="w-full h-full object-cover"
         >
-          <source src="https://static.videezy.com/system/resources/previews/000/046/849/original/P1180781.mp4" type="video/mp4" />
+          <source src="https://b.zmtcdn.com/data/pictures/chains/0/19590530/eb43f4b738d312789eb3454e8d514089.jpg" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
