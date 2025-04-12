@@ -122,10 +122,20 @@ const Contact = () => {
                 </a>
                 
                 <div className="flex justify-center space-x-4 mt-6">
-                  <a href="#" className="px-4 py-2 border border-sesami-black text-sesami-black rounded-md hover:bg-sesami-black hover:text-white transition-colors duration-300">
+                  <a 
+                    href="https://www.swiggy.com/restaurants/sesami-hiranandani-gardens-powai-mumbai-314613" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="px-4 py-2 border border-sesami-black text-sesami-black rounded-md hover:bg-sesami-black hover:text-white transition-colors duration-300"
+                  >
                     Order on Swiggy
                   </a>
-                  <a href="#" className="px-4 py-2 border border-sesami-black text-sesami-black rounded-md hover:bg-sesami-black hover:text-white transition-colors duration-300">
+                  <a 
+                    href="https://www.zomato.com/mumbai/sesami-asian-kitchen-bar-powai" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="px-4 py-2 border border-sesami-black text-sesami-black rounded-md hover:bg-sesami-black hover:text-white transition-colors duration-300"
+                  >
                     Order on Zomato
                   </a>
                 </div>
